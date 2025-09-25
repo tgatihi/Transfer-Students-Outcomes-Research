@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv
+venv/
+.envrc
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/*.db
